@@ -42,7 +42,7 @@ $.winSizeSpy().on('scrollSpy:winSize', funcy)
 
 # Contributions
 
-Please provide pull requests for additional features.  Test cases would be most weclome!
+Please provide pull requests for additional features.  Test cases would be most welcome!
 
 Thank you contributors:
 
