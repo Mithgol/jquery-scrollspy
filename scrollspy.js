@@ -72,7 +72,7 @@
 			var lastTick = element.data('scrollSpy:ticks');
 			if (typeof lastTick != 'number') {
 				// entered into view
-				element.triggerHandler('scrollSpy:enter');
+				element.trigger('scrollSpy:enter');
 			}
 
 			// update tick id
@@ -84,7 +84,7 @@
 			var lastTick = element.data('scrollSpy:ticks');
 			if (typeof lastTick == 'number' && lastTick !== ticks) {
 				// exited from view
-				element.triggerHandler('scrollSpy:exit');
+				element.trigger('scrollSpy:exit');
 				element.data('scrollSpy:ticks', null);
 			}
 		});
